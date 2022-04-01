@@ -1,5 +1,5 @@
 # Проект по автоматизации тестирования для Nokian tyres
-<a target="_blank" href="https://www.nokiantyres.ru/"><img src="images/NokianTyresLogo.svg" width="25" height="25"  alt="Jenkins"/>Сайт Nokian tyres</a>
+<a target="_blank" href="https://www.nokiantyres.ru/"><img src="images/NokianTyresLogo.svg" width="25" height="25"/></a>
 
 ## :pushpin: Содержание:
 
