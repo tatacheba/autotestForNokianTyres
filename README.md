@@ -1,5 +1,5 @@
 # Проект по автоматизации тестирования для Performance Lab
-<a target="_blank" href="https://www.nokiantyres.ru/">Сайт Nokian tyres</a>
+<a target="_blank" href="https://www.nokiantyres.ru/"><img src="images/NokianTyresLogo.svg" width="25" height="25"  alt="Jenkins"/>Сайт Nokian tyres</a>
 
 ## :pushpin: Содержание:
 
@@ -40,7 +40,7 @@
 - ✓ Проверка кнопки 'IT-система' на главной странице.
 - ✓ Проверка Проверка лога консоли на наличие ошибок.
 
-## <img src="images/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Jenkins job
+## <a><img src="images/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Jenkins job
 <a target="_blank" href="https://jenkins.autotests.cloud/job/performance_lab_complete_project/">Сборка в Jenkins</a>
 <p align="center">
 <a href="https://jenkins.autotests.cloud/job/performance_lab_complete_project/"><img src="images/jenkins_job.png" alt="Jenkins"/></a>
