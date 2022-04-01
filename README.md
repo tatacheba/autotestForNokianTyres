@@ -1,5 +1,5 @@
-# Проект по автоматизации тестирования для Nokian tyres
-##### [NOKIAN TYRES][id]
+# Проект по автоматизации тестирования для сайта Nokian tyres
+##### Сайт [NOKIAN TYRES][id]
 [id]: https://www.nokiantyres.ru/
 ## :pushpin: Содержание:
 
