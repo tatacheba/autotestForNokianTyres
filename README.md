@@ -13,7 +13,7 @@
 - [Отчет в Telegram](#Уведомление-в-Telegram-при-помощи-бота)
 - [Видео примеры прохождения тестов](#Примеры-видео-о-прохождении-тестов)
 
-## :rocket: Технологии и инструменты
+## :small_orange_diamond: Технологии и инструменты
 
 <p align="center">
 <a href="https://www.jetbrains.com/idea/"><img src="images/Intelij_IDEA.svg" width="50" height="50"  alt="IDEA"/></a>
@@ -27,7 +27,7 @@
 <a href="https://www.jenkins.io/"><img src="images/Jenkins.svg" width="50" height="50"  alt="Jenkins"/></a>
 </p>
 
-### :scroll: Реализованные проверки
+## :small_orange_diamond: Реализованные проверки
 
 - ✓ Проверка заголовка страницы.
 - ✓ Проверка меню "Услуги и продукты".
