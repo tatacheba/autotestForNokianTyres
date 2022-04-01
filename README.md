@@ -34,8 +34,8 @@
 - ✓ Проверка перехода на страницу активации расширенной гарантии.
 - ✓ Проверка списка шин с бессрочной гарантией.
 - - Параметризированные тесты:
-- ✓ выбор шинных центров;
-- ✓ выбор автосалонов.
+- - ✓ выбор шинных центров;
+- - ✓ выбор автосалонов.
 
 ## <a><img src="images/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Jenkins job
 <a target="_blank" href="https://jenkins.autotests.cloud/job/performance_lab_complete_project/">Сборка в Jenkins</a>
