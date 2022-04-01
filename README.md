@@ -1,6 +1,6 @@
 # Проект по автоматизации тестирования для Nokian tyres
-[NOKIAN TYRES](href="https://www.nokiantyres.ru/ "NOKIAN TYRES")
-
+[NOKIAN TYRES][id]
+[id]: https://www.nokiantyres.ru/
 ## :pushpin: Содержание:
 
 - [Технологии и инструменты](#Технологии-и-инструменты)
