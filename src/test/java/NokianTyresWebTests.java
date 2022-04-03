@@ -1,4 +1,5 @@
 import io.qameta.allure.Description;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -37,7 +38,7 @@ public class NokianTyresWebTests extends TestBase {
         step("Перейти на страницу интернет-магазина https://marketplace.nokiantyres.ru/", () -> ntpage.goToMarketplace());
     }
 
-
+    @Disabled
     @Test
     @Description("Go to the 'Активация гарантии' page")
     @DisplayName("Переход на страницу 'Активация гарантии'")
@@ -52,7 +53,7 @@ public class NokianTyresWebTests extends TestBase {
 
 
     @CsvSource(value = {
-            "Ангарск",
+            "Ангарseск",
             "Димитровград",
             "Унеча"
     })
@@ -70,7 +71,7 @@ public class NokianTyresWebTests extends TestBase {
     }
 
     @CsvSource(value = {
-            "Иваново", "Пермь", "Яблоновский"})
+            "Иваново", "Пермь", "Яблоvvvновский"})
     @Description("Сhoice of Car Dealer")
     @ParameterizedTest(name = "Выбор города автосалонов {0}")
     void choiceCarDealer(String city) {
