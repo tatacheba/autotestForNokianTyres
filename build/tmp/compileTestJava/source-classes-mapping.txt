@@ -1,0 +1,8 @@
+AttachAllure.java
+ AttachAllure
+pages/NokianTyresPage.java
+ pages.NokianTyresPage
+TestBase.java
+ TestBase
+NokianTyresWebTests.java
+ NokianTyresWebTests
