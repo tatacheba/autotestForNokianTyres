@@ -48,10 +48,8 @@
 - browser (браузер, по умолчанию chrome)
 - browserVersion (версия браузера, по умолчанию 91.0)
 - browserSize (размер окна браузера, по умолчанию 1920x1080)
-- browserMobileView (название мобильного устройства, для примера iPhone X)
 - remoteDriverUrl (логин, пароль и адрес удаленного сервера selenoid или grid)
 - videoStorage (адрес, по которому можно получить видео)
-- threads (количество потоков)
 
 ## :computer: Запуск тестов из терминала
 
@@ -70,7 +68,6 @@ test
 -DbrowserMobileView="${BROWSER_MOBILE}"
 -DremoteDriverUrl=https://${LOGIN}:${PASSWORD}@${REMOTE_DRIVER_URL}/wd/hub/
 -DvideoStorage=https://${REMOTE_DRIVER_URL}/video/
--Dthreads=${THREADS}
 ```
 
 ## <img src="images/Allure_Report.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/performance_lab_complete_project/22/allure/">Allure report</a>
