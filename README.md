@@ -38,9 +38,9 @@
     * ✓ выбор автосалонов.
 
 ## <a><img src="images/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Jenkins job
-<a target="_blank" href="https://jenkins.autotests.cloud/job/performance_lab_complete_project/">Сборка в Jenkins</a>
+<a target="_blank" href="https://jenkins.autotests.cloud/job/tatacheba_qaguru_11_for_interview/">Сборка в Jenkins</a>
 <p align="center">
-<a href="https://jenkins.autotests.cloud/job/performance_lab_complete_project/"><img src="images/jenkins_job.png" alt="Jenkins"/></a>
+<a href="https://jenkins.autotests.cloud/job/tatacheba_qaguru_11_for_interview/"><img src="images/jenkins_job.png" alt="Jenkins"/></a>
 </p>
 
 ### Параметры сборки в Jenkins:
@@ -62,12 +62,12 @@ gradle clean test
 ```bash
 clean
 test
+clean
+test
 -Dbrowser=${BROWSER}
--DbrowserVersion=${BROWSER_VERSION}
--DbrowserSize=${BROWSER_SIZE}
--DbrowserMobileView="${BROWSER_MOBILE}"
--DremoteDriverUrl=https://${LOGIN}:${PASSWORD}@${REMOTE_DRIVER_URL}/wd/hub/
--DvideoStorage=https://${REMOTE_DRIVER_URL}/video/
+-Dversion=${VERSION}
+-Dsize=${BROWSER_SIZE}
+-Durl=${REMOTE_URL}
 ```
 
 ## <img src="images/Allure_Report.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/performance_lab_complete_project/22/allure/">Allure report</a>
