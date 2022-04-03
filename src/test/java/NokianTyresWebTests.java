@@ -1,5 +1,4 @@
 import io.qameta.allure.Description;
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -8,7 +7,7 @@ import pages.NokianTyresPage;
 
 import static com.codeborne.selenide.Condition.text;
 import static io.qameta.allure.Allure.step;
-import static org.assertj.core.api.Assertions.assertThat;
+
 
 
 public class NokianTyresWebTests extends TestBase {
