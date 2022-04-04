@@ -12,7 +12,7 @@
 >
 > :heavy_check_mark: [Запуск тестов в Jenkins](#-запуск-тестов-в-jenkins)
 >
-> :heavy_check_mark: [Отчет о результатах тестирования в Allure Report](#-отчет-о-результатах-тестирования-в-allure-report)
+> :heavy_check_mark: [Отчет о результатах тестирования в Allure Report](#-отчет-в-allure-report)
 > 
 > :heavy_check_mark: [Интеграция с Allure TestOps](#-интеграция-с-allure-testops)
 > 
@@ -95,7 +95,7 @@ test
   <img src="images/JenkinsProject.jpeg" alt="job" width="800">
 </p>
 
-#-отчет-о-результатах-тестирования-в-allure-report
+
 ## <img src="images/Allure_Report.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/tatacheba_qaguru_11_for_interview/allure">Allure report</a>
 
 ### Основное окно
