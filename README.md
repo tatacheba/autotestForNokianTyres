@@ -13,14 +13,13 @@
 > :heavy_check_mark: [Запуск тестов в Jenkins](#-запуск-тестов-в-jenkins)
 >
 > :heavy_check_mark: [Отчет о результатах тестирования в Allure Report](#-отчет-в-allure-report)
-> 
-> :heavy_check_mark: [Интеграция с Allure TestOps](#-интеграция-с-allure-testops)
+>
+> :heavy_check_mark: [Интеграция с Allure TestOps](#-Интеграция-с-Allure-TestOps)
 > 
 > :heavy_check_mark: [Интеграция с Jira](#-интеграция-с-jira)
 >
 > :heavy_check_mark: [Уведомления в Telegram с использованием бота](#-уведомления-в-telegram-с-использованием-бота)
 >
-> :heavy_check_mark: [Пример запуска теста в Selenoid](#-пример-запуска-теста-в-selenoid)
 
 ## :technologist: Технологии и инструменты
 
@@ -121,6 +120,20 @@ test
 <p align="center">
 <img title="Selenoid Video" src="images/video2.gif" width="250" height="153"  alt="video"> 
 </p>
+
+## <img src="images/Allure_EE.svg" width="25" height="25"  alt="Allure"/></a>Интеграция с [Allure TestOps](https://allure.autotests.cloud/project/1199/)
+
+### Dashboards
+<p align="center">
+<img title="Allure Graphics" src="images/Dashboards.jpeg">
+</p>
+
+### Test cases
+<p align="center">
+<img title="Allure Graphics" src="images/Test cases.jpeg">
+</p>
+
+## <img width="4%" title="Jenkins" src="images/Jira.svg"> Интеграция с [Jira](https://jenkins.autotests.cloud/job/tatacheba_qaguru_11_for_interview)
 
 ## <img src="images/Telegram.svg" width="25" height="25"  alt="Allure"/></a> Уведомление в Telegram при помощи бота
 
