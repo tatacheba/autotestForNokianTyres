@@ -96,7 +96,6 @@ test
 </p>
 
 
-
 ## <img src="images/Allure_Report.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/performance_lab_complete_project/22/allure/">Allure report</a>
 
 ### Основное окно
