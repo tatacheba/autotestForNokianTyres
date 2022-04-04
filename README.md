@@ -88,20 +88,6 @@ test
 > <code>REMOTE_URL</code> – адрес удаленного сервера, на котором будут запускаться тесты.
 >
 
-## <a><img src="images/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Jenkins job
-<a target="_blank" href="https://jenkins.autotests.cloud/job/tatacheba_qaguru_11_for_interview/">Сборка в Jenkins</a>
-<p align="center">
-<a href="https://jenkins.autotests.cloud/job/tatacheba_qaguru_11_for_interview/"><img src="images/jenkins_job.png" alt="Jenkins"/></a>
-</p>
-
-### Параметры сборки в Jenkins:
-
-- browser (браузер, по умолчанию chrome)
-- browserVersion (версия браузера, по умолчанию 91.0)
-- browserSize (размер окна браузера, по умолчанию 1920x1080)
-- remoteDriverUrl (логин, пароль и адрес удаленного сервера selenoid или grid)
-- videoStorage (адрес, по которому можно получить видео)
-
 ## <img width="4%" title="Jenkins" src="images/logo/Jenkins.svg"> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/tatacheba_qaguru_11_for_interview)
 
 *Для запуска сборки необходимо указать значения параметров и нажать кнопку <code><strong>*Собрать*</strong></code>.*
