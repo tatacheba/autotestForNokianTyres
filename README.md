@@ -125,15 +125,19 @@ test
 
 ### Dashboards
 <p align="center">
-<img title="Allure Graphics" src="images/Dashboards.jpeg">
+<img title="TestOps dashboards" src="images/Dashboards.jpeg">
 </p>
 
 ### Test cases
 <p align="center">
-<img title="Allure Graphics" src="images/Test cases.jpeg">
+<img title="TestOps Test cases" src="images/Test cases.jpeg">
 </p>
 
 ## <img width="4%" title="Jenkins" src="images/Jira.svg"> Интеграция с [Jira](https://jenkins.autotests.cloud/job/tatacheba_qaguru_11_for_interview)
+
+<p align="center">
+<img title=" Интеграция с Jira" src="images/jira_task.jpeg">
+</p>
 
 ## <img src="images/Telegram.svg" width="25" height="25"  alt="Allure"/></a> Уведомление в Telegram при помощи бота
 
