@@ -91,6 +91,11 @@ test
 ## <img width="4%" title="Jenkins" src="images/Jenkins.svg"> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/tatacheba_qaguru_11_for_interview)
 
 
+<p align="center">
+  <img src="images/JenkinsProject.jpeg" alt="job" width="800">
+</p>
+
+
 
 ## <img src="images/Allure_Report.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/performance_lab_complete_project/22/allure/">Allure report</a>
 
