@@ -62,7 +62,7 @@ public class NokianTyresWebTests extends TestBase {
     void choiceCity(String city) {
         step("Открыть страницу 'https://www.nokiantyres.ru/'", () -> ntpage.openPageValidate());
         step("Перейти на страницу 'Расширенные гарантии'", () -> ntpage.goToGuaranteePage());
-        step("Выбор шинного центра '", () -> {
+        step("Выбор шинного центра ", () -> {
             ntpage.choiceTireCentre();
             ntpage.getSelectorCity().click();
             ntpage.getInputCity().setValue(city).pressEnter();
