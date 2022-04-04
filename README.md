@@ -116,10 +116,10 @@ test
 <img title="Allure Graphics" src="images/allure_graphics.jpeg">
 </p>
 
-### <img src="images/Selenoid.svg" width="25" height="25"  alt="Allure"/></a> Примеры видео о прохождении тестов
+### <img src="images/Selenoid.svg" width="25" height="25"  alt="Allure"/></a> Пример видео о прохождении тестов
 
 <p align="center">
-<img title="Selenoid Video" src="images/video1.gif" width="250" height="153"  alt="video"> <img title="Selenoid Video" src="images/video2.gif" width="250" height="153"  alt="video"> 
+<img title="Selenoid Video" src="images/video2.gif" width="250" height="153"  alt="video"> 
 </p>
 
 ## <img src="images/Telegram.svg" width="25" height="25"  alt="Allure"/></a> Уведомление в Telegram при помощи бота
