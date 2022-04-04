@@ -30,6 +30,10 @@ public class TestBase {
         String login = System.getProperty("login", "user1");
         String password = System.getProperty("password", "1234");
 
+        //        String user = System.getProperty("user");
+//        String password = System.getProperty("password");
+//        Configuration.remote = "https://" + user + ":" + password + "@" + System.getProperty("remoteBrowser");
+
         String url = "https://" + login + ":" + password + "@" + remoteUrl;
         Configuration.remote = url;
         Configuration.browser = browser;
