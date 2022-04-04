@@ -139,7 +139,7 @@ test
 ## <img src="images/Telegram.svg" width="25" height="25"  alt="Allure"/></a> Уведомление в Telegram при помощи бота
 
 <p align="center">
-<img title="Allure Overview Dashboard" src="images/allure_telegram.png">
+<img title="Allure Overview Dashboard" src="images/allure_telegram.jpeg">
 </p>
 
 
