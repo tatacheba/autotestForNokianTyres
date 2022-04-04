@@ -1,19 +1,28 @@
 # Проект по автоматизации тестирования для сайта Nokian tyres
 #####  :arrow_right: Сайт [NOKIAN TYRES][id] :arrow_left:
 [id]: https://www.nokiantyres.ru/
-## :pushpin: Содержание:
 
-- [Технологии и инструменты](#Технологии-и-инструменты)
-- [Реализованные проверки](#Реализованные-проверки)
-- [Сборка в Jenkins](#Jenkins-job)
-- [Запуск из терминала](#Запуск-тестов-из-терминала)
-- [Allure отчет](#Allure-отчет)
-- [Интеграция с Allure TestOps](#Интеграция-с-Allure-TestOps)
-- [Интеграция с Jira](#Интеграция-с-Jira)
-- [Отчет в Telegram](#Уведомление-в-Telegram-при-помощи-бота)
-- [Видео примеры прохождения тестов](#Примеры-видео-о-прохождении-тестов)
+## :page_with_curl:	Содержание
 
-## :small_orange_diamond: Технологии и инструменты
+> :heavy_check_mark: [Технологии и инструменты](#technologist-технологии-и-инструменты)
+>
+> :heavy_check_mark: [Реализованы проверки](#bookmark_tabs-реализованы-проверки)
+>
+> :heavy_check_mark: [Запуск тестов из терминала](#computer-Запуск-тестов-из-терминала)
+>
+> :heavy_check_mark: [Запуск тестов в Jenkins](#-запуск-тестов-в-jenkins)
+>
+> :heavy_check_mark: [Отчет о результатах тестирования в Allure Report](#-отчет-о-результатах-тестирования-в-allure-report)
+> 
+> :heavy_check_mark: [Интеграция с Allure TestOps](#-интеграция-с-allure-testops)
+> 
+> :heavy_check_mark: [Интеграция с Jira](#-интеграция-с-jira)
+>
+> :heavy_check_mark: [Уведомления в Telegram с использованием бота](#-уведомления-в-telegram-с-использованием-бота)
+>
+> :heavy_check_mark: [Пример запуска теста в Selenoid](#-пример-запуска-теста-в-selenoid)
+
+## :technologist: Технологии и инструменты
 
 <p align="center">
 <a href="https://www.jetbrains.com/idea/"><img src="images/Intelij_IDEA.svg" width="50" height="50"  alt="IDEA"/></a>
@@ -27,7 +36,19 @@
 <a href="https://www.jenkins.io/"><img src="images/Jenkins.svg" width="50" height="50"  alt="Jenkins"/></a>
 </p>
 
-## :small_orange_diamond: Реализованные проверки
+> *В данном проекте автотесты написаны на <code><strong>*Java*</strong></code> с использованием фреймворка <code><strong>*Selenide*</strong></code> для UI-тестов.*
+>
+>*Для сборки проекта используется <code><strong>*Gradle*</strong></code>.*
+>
+>*<code><strong>*JUnit 5*</strong></code> используется как фреймворк для модульного тестирования.*
+>
+>*Запуск тестов выполняется из <code><strong>*Jenkins*</strong></code>.*
+>
+>*<code><strong>*Selenoid*</strong></code> используется для запуска браузеров в контейнерах  <code><strong>*Docker*</strong></code>.*
+>
+>*<code><strong>*Allure Report, Allure TestOps, Jira, Telegram Bot*</strong></code> используются для визуализации результатов тестирования.*
+
+## :bookmark_tabs: Реализованы проверки
 
 * ✓ Проверка перехода на страницу информации о расширенной гарантии.
 * ✓ Проверка перехода в https://marketplace.nokiantyres.ru/ со страницы "Расширенная гарантия".
@@ -36,6 +57,36 @@
 * Параметризированные тесты:
     * ✓ выбор шинных центров;
     * ✓ выбор автосалонов.
+    
+
+## :computer: Запуск тестов из терминала
+
+Локальный запуск:
+```bash
+gradle clean test
+```
+
+Удаленный запуск:
+```bash
+gradle
+clean
+test
+-Dbrowser=${BROWSER}
+-Dversion=${VERSION}
+-Dsize=${BROWSER_SIZE}
+-Durl=${REMOTE_URL}
+```
+
+### Параметры сборки
+
+> <code>BROWSER</code> – браузер, в котором будут выполняться тесты (_по умолчанию - <code>chrome</code>_).
+>
+> <code>VERSION</code> – версия браузера, в которой будут выполняться тесты (_по умолчанию - <code>91.0</code>_).
+>
+><code>BROWSER_SIZE</code> – размер окна браузера, в котором будут выполняться тесты (_по умолчанию - <code>1920x1080</code>_).
+>
+> <code>REMOTE_URL</code> – адрес удаленного сервера, на котором будут запускаться тесты.
+>
 
 ## <a><img src="images/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Jenkins job
 <a target="_blank" href="https://jenkins.autotests.cloud/job/tatacheba_qaguru_11_for_interview/">Сборка в Jenkins</a>
@@ -51,24 +102,23 @@
 - remoteDriverUrl (логин, пароль и адрес удаленного сервера selenoid или grid)
 - videoStorage (адрес, по которому можно получить видео)
 
-## :computer: Запуск тестов из терминала
+## <img width="4%" title="Jenkins" src="images/logo/Jenkins.svg"> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/tatacheba_qaguru_11_for_interview)
 
-Локальный запуск:
-```bash
-gradle clean test
-```
+*Для запуска сборки необходимо указать значения параметров и нажать кнопку <code><strong>*Собрать*</strong></code>.*
 
-Удаленный запуск:
-```bash
-clean
-test
-clean
-test
--Dbrowser=${BROWSER}
--Dversion=${VERSION}
--Dsize=${BROWSER_SIZE}
--Durl=${REMOTE_URL}
-```
+<p align="center">
+  <img src="images/JenkinsProject.jpeg" alt="job" width="800">
+</p>
+
+*После выполнения сборки, в блоке <code><strong>*История сборок*</strong></code> напротив номера сборки появится
+значок <img width="2%" title="Allure Report" src="images/logo/Allure.svg"><code><strong>*Allure
+Report*</strong></code>, кликнув по которому, откроется страница с сформированным html-отчетом.*
+
+<p align="center">
+  <img src="images/screens/Jenkins2.png" alt="job" width="1000">
+</p>
+
+
 
 ## <img src="images/Allure_Report.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/performance_lab_complete_project/22/allure/">Allure report</a>
 
