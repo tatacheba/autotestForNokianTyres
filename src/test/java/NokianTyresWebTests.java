@@ -41,7 +41,7 @@ public class NokianTyresWebTests extends TestBase {
     @Disabled
     @Test
     @Description("Go to the 'Активация гарантии' page")
-    @DisplayName("Переход на страницу 'Активация гарантии'")
+    @DisplayName("Переход на страницу 'Активация гарантии'//Skipped Test")
     void openPageActivateGuarantee() {
         step("Открыть страницу 'https://www.nokiantyres.ru/'", () -> ntpage.openPageValidate());
 
@@ -53,7 +53,7 @@ public class NokianTyresWebTests extends TestBase {
 
 
     @CsvSource(value = {
-            "Ангарseск",
+            "Специально для Failed Test",
             "Димитровград",
             "Унеча"
     })
@@ -71,7 +71,7 @@ public class NokianTyresWebTests extends TestBase {
     }
 
     @CsvSource(value = {
-            "Иваново", "Пермь", "Яблоvvvновский"})
+            "Иваново", "Пермь", "Специально для Failed Test"})
     @Description("Сhoice of Car Dealer")
     @ParameterizedTest(name = "Выбор города автосалонов {0}")
     void choiceCarDealer(String city) {
