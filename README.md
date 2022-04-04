@@ -110,10 +110,10 @@ test
 <img title="Allure Tests" src="images/allure_tests.jpeg">
 </p>
 
-### Гафики
+### Графики
 
 <p align="center">
-<img title="Allure Graphics" src="images/allure_graphics.png">
+<img title="Allure Graphics" src="images/allure_graphics.jpeg">
 </p>
 
 ## <img src="images/Allure_EE.svg" width="25" height="25"  alt="Allure"/></a>Интеграция с <a target="_blank" href="https://allure.autotests.cloud/launch/10223">Allure TestOps</a>
