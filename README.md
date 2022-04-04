@@ -116,26 +116,6 @@ test
 <img title="Allure Graphics" src="images/allure_graphics.jpeg">
 </p>
 
-## <img src="images/Allure_EE.svg" width="25" height="25"  alt="Allure"/></a>Интеграция с <a target="_blank" href="https://allure.autotests.cloud/launch/10223">Allure TestOps</a>
-
-### Дашборд
-
-<p align="center">
-<img title="Allure TestOps Dashboard" src="images/testOps_main.png">
-</p>
-
-### Тест-кейсы
-
-<p align="center">
-<img title="Allure TestOps Tests" src="images/testOps_tests.png">
-</p>
-
-## <img src="images/Jira.svg" width="25" height="25"  alt="Allure"/></a>Интеграция с трекером задач <a target="_blank" href="https://jira.autotests.cloud/browse/AUTO-628">Jira</a>
-
-<p align="center">
-<img title="Jira" src="images/jira_task.png">
-</p>
-
 ## <img src="images/Telegram.svg" width="25" height="25"  alt="Allure"/></a> Уведомление в Telegram при помощи бота
 
 <p align="center">
