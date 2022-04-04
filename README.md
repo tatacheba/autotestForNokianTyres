@@ -90,20 +90,6 @@ test
 
 ## <img width="4%" title="Jenkins" src="images/Jenkins.svg"> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/tatacheba_qaguru_11_for_interview)
 
-*Для запуска сборки необходимо указать значения параметров и нажать кнопку <code><strong>*Собрать*</strong></code>.*
-
-<p align="center">
-  <img src="images/JenkinsProject.jpeg" alt="job" width="800">
-</p>
-
-*После выполнения сборки, в блоке <code><strong>*История сборок*</strong></code> напротив номера сборки появится
-значок <img width="2%" title="Allure Report" src="images/logo/Allure.svg"><code><strong>*Allure
-Report*</strong></code>, кликнув по которому, откроется страница с сформированным html-отчетом.*
-
-<p align="center">
-  <img src="images/screens/Jenkins2.png" alt="job" width="1000">
-</p>
-
 
 
 ## <img src="images/Allure_Report.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/performance_lab_complete_project/22/allure/">Allure report</a>
