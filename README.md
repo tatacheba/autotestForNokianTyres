@@ -101,13 +101,13 @@ test
 ### Основное окно
 
 <p align="center">
-<img title="Allure Overview Dashboard" src="images/allure_main.png">
+<img title="Allure Overview Dashboard" src="images/allure_main.jpeg">
 </p>
 
 ### Тесты
 
 <p align="center">
-<img title="Allure Tests" src="images/allure_tests.png">
+<img title="Allure Tests" src="images/allure_tests.jpeg">
 </p>
 
 ### Гафики
