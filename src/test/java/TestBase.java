@@ -28,16 +28,10 @@ public class TestBase {
         String remoteUrl = System.getProperty("remoteUrl", "selenoid.autotests.cloud/wd/hub");
         String user = System.getProperty("user");
         String password = System.getProperty("password");
-        String url = "https://" + user + ":" + password + "@" + remoteUrl;
-        Configuration.remote = url;
-        Configuration.browser = browser;
-        Configuration.browserVersion = version;
-        Configuration.browserSize = size;
+        Configuration.remote = "https://" + user + ":" + password + "@" + System.getProperty("remoteUrl");
 
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
-        AttachAllure.attachAsText("Browser: ", browser);
-        AttachAllure.attachAsText("Version: ", version);
-        AttachAllure.attachAsText("RemoteUrl: ", remoteUrl);
+
     }
 
     @AfterEach
