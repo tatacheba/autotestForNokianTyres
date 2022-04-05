@@ -25,7 +25,7 @@ public class TestBase {
         String browser = System.getProperty("browser", "chrome");
         String version = System.getProperty("version", "91");
         String size = System.getProperty("size", "1920x1080");
-//        String remoteUrl = System.getProperty("remoteUrl", "selenoid.autotests.cloud/wd/hub");
+        String remoteUrl = System.getProperty("remoteUrl", "selenoid.autotests.cloud/wd/hub");
         String user = System.getProperty("user");
         String password = System.getProperty("password");
         String url = "https://" + user + ":" + password + "@" + remoteUrl;
@@ -37,7 +37,7 @@ public class TestBase {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
         AttachAllure.attachAsText("Browser: ", browser);
         AttachAllure.attachAsText("Version: ", version);
-//        AttachAllure.attachAsText("Remote Url: ", remoteUrl);
+        AttachAllure.attachAsText("Remote Url: ", remoteUrl);
     }
 
     @AfterEach
