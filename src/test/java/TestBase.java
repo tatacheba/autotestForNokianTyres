@@ -6,7 +6,6 @@ import org.junit.jupiter.api.BeforeAll;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import static com.codeborne.selenide.Configuration.baseUrl;
-import static com.codeborne.selenide.Configuration.browserSize;
 import static com.codeborne.selenide.Selenide.closeWebDriver;
 import static com.codeborne.selenide.Selenide.sleep;
 
@@ -26,15 +25,10 @@ public class TestBase {
         String browser = System.getProperty("browser", "chrome");
         String version = System.getProperty("version", "91");
         String size = System.getProperty("size", "1920x1080");
-        String remoteUrl = System.getProperty("remoteUrl", "selenoid.autotests.cloud/wd/hub");
-        String login = System.getProperty("login", "user1");
-        String password = System.getProperty("password", "1234");
-
-        //        String user = System.getProperty("user");
-//        String password = System.getProperty("password");
-//        Configuration.remote = "https://" + user + ":" + password + "@" + System.getProperty("remoteBrowser");
-
-        String url = "https://" + login + ":" + password + "@" + remoteUrl;
+//        String remoteUrl = System.getProperty("remoteUrl", "selenoid.autotests.cloud/wd/hub");
+        String user = System.getProperty("user");
+        String password = System.getProperty("password");
+        String url = "https://" + user + ":" + password + "@" + System.getProperty("remoteBrowser");
         Configuration.remote = url;
         Configuration.browser = browser;
         Configuration.browserVersion = version;
@@ -43,7 +37,7 @@ public class TestBase {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
         AttachAllure.attachAsText("Browser: ", browser);
         AttachAllure.attachAsText("Version: ", version);
-        AttachAllure.attachAsText("Remote Url: ", remoteUrl);
+//        AttachAllure.attachAsText("Remote Url: ", remoteUrl);
     }
 
     @AfterEach
