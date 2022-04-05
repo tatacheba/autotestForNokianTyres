@@ -28,7 +28,7 @@ public class TestBase {
 //        String remoteUrl = System.getProperty("remoteUrl", "selenoid.autotests.cloud/wd/hub");
         String user = System.getProperty("user");
         String password = System.getProperty("password");
-        Configuration.remote = "https://" + user + ":" + password + "@" + System.getProperty("remoteUrl");
+        Configuration.remote = "https://" + user + ":" + password + "@" + System.getProperty("remoteBrowser");
 
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
 
