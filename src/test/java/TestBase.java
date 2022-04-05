@@ -37,7 +37,7 @@ public class TestBase {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
         AttachAllure.attachAsText("Browser: ", browser);
         AttachAllure.attachAsText("Version: ", version);
-        AttachAllure.attachAsText("Remote Url: ", remoteUrl);
+        AttachAllure.attachAsText("RemoteUrl: ", remoteUrl);
     }
 
     @AfterEach
