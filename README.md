@@ -113,10 +113,10 @@ test
 <img title="Allure Graphics" src="images/allure_graphics.jpeg">
 </p>
 
-### <img src="images/Selenoid.svg" width="100%" height="auto" /></a> Пример видео о прохождении тестов
+### <img src="images/Selenoid.svg" width="25" height="25" /></a> Пример видео о прохождении тестов
 
 <p align="center">
-<img title="Selenoid Video" src="images/video2.gif" width="250" height="153"  alt="video"> 
+<img title="Selenoid Video" src="images/video2.gif" width="100%" height="auto"  alt="video"> 
 </p>
 
 ## <img src="images/Allure_EE.svg" width="25" height="25" /> Интеграция с [Allure TestOps](https://allure.autotests.cloud/project/1199/)
