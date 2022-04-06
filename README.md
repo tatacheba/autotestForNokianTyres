@@ -6,7 +6,7 @@
 
 > :heavy_check_mark: [Технологии и инструменты](#technologist-технологии-и-инструменты)
 >
-> :heavy_check_mark: [Реализованы проверки](#bookmark_tabs-реализованы-проверки)
+> :heavy_check_mark: [Реализованые проверки](#bookmark_tabs-реализованые-проверки)
 >
 > :heavy_check_mark: [Запуск тестов из терминала](#computer-Запуск-тестов-из-терминала)
 >
@@ -47,7 +47,7 @@
 >
 >*<code><strong>*Allure Report, Allure TestOps, Jira, Telegram Bot*</strong></code> используются для визуализации результатов тестирования.*
 
-## :bookmark_tabs: Реализованы проверки
+## :bookmark_tabs: Реализованые проверки
 
 * ✓ Проверка перехода на страницу информации о расширенной гарантии.
 * ✓ Проверка перехода в https://marketplace.nokiantyres.ru/ со страницы "Расширенная гарантия".
