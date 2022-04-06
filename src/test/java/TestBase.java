@@ -13,10 +13,10 @@ public class TestBase {
     @BeforeAll
     static void openBrowser() {
         Configuration.baseUrl = "https://www.nokiantyres.ru/";
-        Configuration.browserSize = System.getProperty("size", "1920x1080");
-        Configuration.browser = System.getProperty("browser", "chrome");
-        Configuration.pageLoadTimeout = 80000;
-        Configuration.browserVersion = System.getProperty("version");
+//        Configuration.browserSize = System.getProperty("size", "1920x1080");
+//        Configuration.browser = System.getProperty("browser", "chrome");
+//        Configuration.pageLoadTimeout = 80000;
+//        Configuration.browserVersion = System.getProperty("version");
         SelenideLogger.addListener("allure", new AllureSelenide());
 
         //password and user for remote browser
