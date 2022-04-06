@@ -70,10 +70,8 @@ gradle clean test
 gradle
 clean
 test
--Dbrowser=${BROWSER}
--Dversion=${VERSION}
--Dsize=${BROWSER_SIZE}
--Durl=${REMOTE_URL}
+-Duser=${USER}
+-Dpassword=${PASSWORD}
 ```
 
 ### Параметры сборки
@@ -115,7 +113,7 @@ test
 <img title="Allure Graphics" src="images/allure_graphics.jpeg">
 </p>
 
-### <img src="images/Selenoid.svg" width="25" height="25" /></a> Пример видео о прохождении тестов
+### <img src="images/Selenoid.svg" width="100%" height="auto" /></a> Пример видео о прохождении тестов
 
 <p align="center">
 <img title="Selenoid Video" src="images/video2.gif" width="250" height="153"  alt="video"> 
