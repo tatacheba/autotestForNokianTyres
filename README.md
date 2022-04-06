@@ -74,17 +74,6 @@ test
 -Dpassword=${PASSWORD}
 ```
 
-### Параметры сборки
-
-> <code>BROWSER</code> – браузер, в котором будут выполняться тесты (_по умолчанию - <code>chrome</code>_).
->
-> <code>VERSION</code> – версия браузера, в которой будут выполняться тесты (_по умолчанию - <code>91.0</code>_).
->
-><code>BROWSER_SIZE</code> – размер окна браузера, в котором будут выполняться тесты (_по умолчанию - <code>1920x1080</code>_).
->
-> <code>REMOTE_URL</code> – адрес удаленного сервера, на котором будут запускаться тесты.
->
-
 ## <img width="4%" title="Jenkins" src="images/Jenkins.svg"> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/tatacheba_qaguru_11_for_interview)
 
 
