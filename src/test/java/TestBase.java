@@ -19,12 +19,11 @@ public class TestBase {
         String user = System.getProperty("user");
         String password = System.getProperty("password");
 
-       DesiredCapabilities capabilities = new DesiredCapabilities();
+        DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("enableVNC", true);
         capabilities.setCapability("enableVideo", true);
         Configuration.browserCapabilities = capabilities;
-        Configuration.remote = "https://" + user + ":" + password + "@" + System.getProperty("remoteBrowser","selenoid.autotests.cloud/wd/hub");
-
+        Configuration.remote = "https://" + user + ":" + password + "@" + System.getProperty("remoteBrowser", "selenoid.autotests.cloud/wd/hub");
     }
 
     @AfterEach
@@ -33,7 +32,6 @@ public class TestBase {
         AttachAllure.pageSource();
         AttachAllure.browserConsoleLogs();
         AttachAllure.addVideo();
-        sleep(5000);
         closeWebDriver();
     }
 }
