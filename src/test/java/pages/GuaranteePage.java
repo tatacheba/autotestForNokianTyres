@@ -25,6 +25,12 @@ public class GuaranteePage {
             titleTyreCenter = "Расширенная гарантия Nokian Tyres в шинных центрах",
             titleCarDealer = "Расширенная гарантия Nokian Tyres в автосалонах";
 
+
+    public GuaranteePage openPageGuarantee() {
+        open(urlPageGuarantee);
+        return this;
+    }
+
     public GuaranteePage goToMarketplace() {
         buttonBayTypes.click();
         return this;

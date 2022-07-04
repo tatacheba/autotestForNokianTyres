@@ -34,8 +34,7 @@ public class WebTests extends TestBase {
     @DisplayName("Проверка перехода на страницу интернет-магазина со страницы 'Расширенная гарантия'")
     void checkOpenPageMarketplace() {
         step("Перейти на страницу 'Расширенные гарантии'", () -> {
-            mainPage.openPage();
-            mainPage.goToGuaranteePage();
+            guaranteePage.openPageGuarantee();
         });
         step("Перейти на страницу интернет-магазина https://marketplace.nokiantyres.ru/", () -> {
             guaranteePage.goToMarketplace();
@@ -51,8 +50,7 @@ public class WebTests extends TestBase {
     @DisplayName("Проверка перехода на страницу 'Активация гарантии'//Skipped Test")
     void checkOpenPageActivateGuarantee() {
         step("Перейти на страницу 'Расширенные гарантии'", () -> {
-            mainPage.openPage();
-            mainPage.goToGuaranteePage();
+            guaranteePage.openPageGuarantee();
         });
         step("Нажать на ссылку активации гарантии в блоке 'АКТИВИРУЙТЕ ГАРАНТИЮ'", () -> {
             guaranteePage.goToActivateGuarantee();
@@ -71,8 +69,7 @@ public class WebTests extends TestBase {
     @ParameterizedTest(name = "Проверка выбора города шинных центров {0}")
     void checkChoiceTyresCity(String city) {
         step("Перейти на страницу 'Расширенные гарантии'", () -> {
-            mainPage.openPage();
-            mainPage.goToGuaranteePage();
+            guaranteePage.openPageGuarantee();
         });
         step("Выбор шинного центра ", () -> {
             guaranteePage.choiceTyreCentre();
@@ -89,8 +86,7 @@ public class WebTests extends TestBase {
     @ParameterizedTest(name = "Проверка выбора города автосалонов {0}")
     void checkChoiceCarDealer(String city) {
         step("Перейти на страницу 'Расширенные гарантии'", () -> {
-            mainPage.openPage();
-            mainPage.goToGuaranteePage();
+            guaranteePage.openPageGuarantee();
         });
         step("Выбор автосалона ", () -> {
             guaranteePage.choiceCarDealer();
