@@ -1,20 +1,22 @@
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
+import pages.DealerCarPage;
 import pages.GuaranteePage;
 import pages.MainPage;
+import pages.ShinnyeTsentryPage;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.*;
-import static com.codeborne.selenide.WebDriverConditions.urlStartingWith;
 import static io.qameta.allure.Allure.step;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class WebTests extends TestBase {
-    GuaranteePage guaranteePage = new GuaranteePage();
     MainPage mainPage = new MainPage();
+    GuaranteePage guaranteePage = new GuaranteePage();
+    ShinnyeTsentryPage tyresServicesPage = new ShinnyeTsentryPage();
+    DealerCarPage dealerCarPage = new DealerCarPage();
 
     @Test
     @DisplayName("Проверка перехода на страницу 'Расширенная гарантия' с главной страницы")
@@ -45,7 +47,7 @@ public class WebTests extends TestBase {
         });
     }
 
-//    @Disabled
+    //    @Disabled
     @Test
     @DisplayName("Проверка перехода на страницу 'Активация гарантии'//Skipped Test")
     void checkOpenPageActivateGuarantee() {
@@ -62,22 +64,18 @@ public class WebTests extends TestBase {
     }
 
     @CsvSource(value = {
-            "Специально для Failed Test",
-            "Димитровград",
-            "Унеча"
-    })
+            "Специально для Failed Test", "Димитровград", "Унеча"})
     @ParameterizedTest(name = "Проверка выбора города шинных центров {0}")
     void checkChoiceTyresCity(String city) {
-        step("Перейти на страницу 'Расширенные гарантии'", () -> {
-            guaranteePage.openPageGuarantee();
+        step("Перейти на страницу выбора шинных центров", () -> {
+            tyresServicesPage.openPageShinnyeTsentry();
         });
-        step("Выбор шинного центра ", () -> {
-            guaranteePage.choiceTyreCentre();
-            guaranteePage.getSelectorCity().click();
-            guaranteePage.getInputCity().setValue(city).pressEnter();
+        step("Выбор шинного центра", () -> {
+            tyresServicesPage.getSelectorCity().click();
+            tyresServicesPage.getInputCity().setValue(city).pressEnter();
         });
-        step("Проверка выбранного автосалона ", () -> {
-            guaranteePage.getResultCity().shouldHave(text(city));
+        step("Проверка выбранного шинного центра ", () -> {
+            tyresServicesPage.getResultCity().shouldHave(text(city));
         });
     }
 
@@ -85,16 +83,15 @@ public class WebTests extends TestBase {
             "Иваново", "Пермь", "Специально для Failed Test"})
     @ParameterizedTest(name = "Проверка выбора города автосалонов {0}")
     void checkChoiceCarDealer(String city) {
-        step("Перейти на страницу 'Расширенные гарантии'", () -> {
-            guaranteePage.openPageGuarantee();
+        step("Перейти на страницу выбора автосалонов", () -> {
+            dealerCarPage.openPageDealerCar();
         });
-        step("Выбор автосалона ", () -> {
-            guaranteePage.choiceCarDealer();
-            guaranteePage.getSelectorCity().click();
-            guaranteePage.getInputCity().setValue(city).pressEnter();
+        step("Выбор автосалона", () -> {
+            dealerCarPage.getSelectorCity().click();
+            dealerCarPage.getInputCity().setValue(city).pressEnter();
         });
         step("Проверка выбранного автосалона ", () -> {
-            guaranteePage.getResultCity().shouldHave(text(city));
+            dealerCarPage.getResultCity().shouldHave(text(city));
         });
     }
 }
