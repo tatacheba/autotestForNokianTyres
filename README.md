@@ -52,13 +52,13 @@
 
 ## <a name="verified">Verified checks</a>
 
--   ✓ Verifying the transition to the extended warranty information page.
--   ✓ Check the transition to https://marketplace.nokiantyres.ru/ from the page "Extended Warranty".
+-   ✓ Verifying the transition to the advanced guarantee information page.
+-   ✓Checking the transition from the page "Advanced Guarantee" to https://marketplace.nokiantyres.ru/
 -   ✓ Check the Advanced Guarantee Activation Page.
 -   ✓ Check list of tyres with indefinite warranty.
 -   Parametrized tests:
-    -   ✓ bus centre selection;
-    -   ✓ showroom selection.
+    -   ✓ Bus center selection;
+    -   ✓ Showroom selection.
 
 ## <a name="computer">Run tests from the terminal</a>
 
