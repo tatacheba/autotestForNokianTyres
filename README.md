@@ -1,27 +1,28 @@
-# Проект по автоматизации UI-тестирования для сайта Nokian tyres
-#####  :arrow_right: Сайт [NOKIAN TYRES][id] :arrow_left:
+# UI-testing automation project for Nokian tyres
+
+##### :arrow_right: website [NOKIAN TYRES][id] :arrow_left:
+
 [id]: https://www.nokiantyres.ru/
 
-## :page_with_curl:	Содержание
+## :page_with_curl: Contents
 
-> :heavy_check_mark: [Технологии и инструменты](#technologist-технологии-и-инструменты)
+> :heavy_check_mark: [Technologies and tools](#technologist-технологии-и-инструменты)
 >
-> :heavy_check_mark: [Реализованные проверки](#bookmark_tabs-реализованные-проверки)
+> :heavy_check_mark: [Verified checks](#bookmark_tabs-реализованные-проверки)
 >
-> :heavy_check_mark: [Запуск тестов из терминала](#computer-Запуск-тестов-из-терминала)
+> :heavy_check_mark: [Run tests from the terminal](#computer-Запуск-тестов-из-терминала)
 >
-> :heavy_check_mark: [Запуск тестов в Jenkins](#-запуск-тестов-в-jenkins)
+> :heavy_check_mark: [Running Tests in Jenkins](#-запуск-тестов-в-jenkins)
 >
-> :heavy_check_mark: [Отчет о результатах тестирования в Allure Report](#-отчет-в-allure-report)
+> :heavy_check_mark: [Report on test results in Allure Report](#-отчет-в-allure-report)
 >
-> :heavy_check_mark: [Интеграция с Allure TestOps](#-Интеграция-с-Allure-TestOps)
-> 
-> :heavy_check_mark: [Интеграция с Jira](#-интеграция-с-jira)
+> :heavy_check_mark: [Integration with Allure TestOps](#-Интеграция-с-Allure-TestOps)
 >
-> :heavy_check_mark: [Уведомления в Telegram с использованием бота](#-уведомления-в-telegram-с-использованием-бота)
+> :heavy_check_mark: [Integration with Jira](#-интеграция-с-jira)
 >
+> :heavy_check_mark: [Notifications in Telegram using a bot](#-уведомления-в-telegram-с-использованием-бота)
 
-## :technologist: Технологии и инструменты
+## :technologist: Technologies and tools
 
 <p align="center">
 <a href="https://www.jetbrains.com/idea/"><img src="images/Intelij_IDEA.svg" width="50" height="50"  alt="IDEA"/></a>
@@ -35,37 +36,38 @@
 <a href="https://www.jenkins.io/"><img src="images/Jenkins.svg" width="50" height="50"  alt="Jenkins"/></a>
 </p>
 
-> *В данном проекте автотесты написаны на <code><strong>*Java*</strong></code> с использованием фреймворка <code><strong>*Selenide*</strong></code> для UI-тестов.*
+> *In this project, automated tests are written in <code><strong>*Java*</strong></code> using <code><strong>*Selenide*</strong></code> framework for UI testing.*
 >
->*Для сборки проекта используется <code><strong>*Gradle*</strong></code>.*
+> _<code><strong>*Gradle*</strong></code> is used for project building._
 >
->*<code><strong>*JUnit 5*</strong></code> используется как фреймворк для модульного тестирования.*
+> *<code><strong>*JUnit 5*</strong></code> is utilized as the framework for unit testing.*
 >
->*Запуск тестов выполняется из <code><strong>*Jenkins*</strong></code>.*
+> *Test execution is performed from <code><strong>*Jenkins*</strong></code>.*
 >
->*<code><strong>*Selenoid*</strong></code> используется для запуска браузеров в контейнерах  <code><strong>*Docker*</strong></code>.*
+> *<code><strong>*Selenoid*</strong></code> is used for running browsers in <code><strong>*Docker*</strong></code>.*
 >
->*<code><strong>*Allure Report, Allure TestOps, Jira, Telegram Bot*</strong></code> используются для визуализации результатов тестирования.*
+> *<code><strong>*Allure Report, Allure TestOps, Jira, Telegram Bot*</strong></code> are employed for visualizing test results.*
 
-## :bookmark_tabs: Реализованные проверки
+## :bookmark_tabs: Verified checks
 
-* ✓ Проверка перехода на страницу информации о расширенной гарантии.
-* ✓ Проверка перехода в https://marketplace.nokiantyres.ru/ со страницы "Расширенная гарантия".
-* ✓ Проверка перехода на страницу активации расширенной гарантии.
-* ✓ Проверка списка шин с бессрочной гарантией.
-* Параметризированные тесты:
-    * ✓ выбор шинных центров;
-    * ✓ выбор автосалонов.
-    
+-   ✓ Verifying the transition to the extended warranty information page.
+-   ✓ Check the transition to https://marketplace.nokiantyres.ru/ from the page "Extended Warranty".
+-   ✓ Check the Advanced Guarantee Activation Page.
+-   ✓ Check list of tyres with indefinite warranty.
+-   Parametrized tests:
+    -   ✓ bus centre selection;
+    -   ✓ showroom selection.
 
-## :computer: Запуск тестов из терминала
+## :computer: Run tests from the terminal
 
-Локальный запуск:
+Local start:
+
 ```bash
 gradle clean test
 ```
 
-Удаленный запуск:
+Remote start:
+
 ```bash
 gradle
 clean
@@ -74,63 +76,60 @@ test
 -Dpassword=${PASSWORD}
 ```
 
-## <img width="4%" title="Jenkins" src="images/Jenkins.svg"> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/tatacheba_qaguru_11_for_interview)
-
+## <img width="4%" title="Jenkins" src="images/Jenkins.svg"> Running Tests in [Jenkins](https://jenkins.autotests.cloud/job/tatacheba_qaguru_11_for_interview)
 
 <p align="center">
   <img src="images/JenkinsProject.jpeg" alt="job" width="800">
 </p>
 
+## <img src="images/Allure_Report.svg" width="25" height="25"  alt="Allure"/></a> Report on test results in <a target="_blank" href="https://jenkins.autotests.cloud/job/tatacheba_qaguru_11_for_interview/allure">Allure report</a>
 
-## <img src="images/Allure_Report.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/tatacheba_qaguru_11_for_interview/allure">Allure report</a>
-
-### Основное окно
+### Main
 
 <p align="center">
 <img title="Allure Overview Dashboard" src="images/allure_main.jpeg">
 </p>
 
-### Тесты
+### Tests
 
 <p align="center">
 <img title="Allure Tests" src="images/allure_tests.jpeg">
 </p>
 
-### Графики
+### Graphics
 
 <p align="center">
 <img title="Allure Graphics" src="images/allure_graphics.jpeg">
 </p>
 
-### <img src="images/Selenoid.svg" width="25" height="25" /></a> Пример видео о прохождении тестов
+### <img src="images/Selenoid.svg" width="25" height="25" /></a> Example video about passing tests
 
 <p align="center">
 <img title="Selenoid Video" src="images/video2.gif" width="100%" height="auto"  alt="video"> 
 </p>
 
-## <img src="images/Allure_EE.svg" width="25" height="25" /> Интеграция с [Allure TestOps](https://allure.autotests.cloud/project/1199/)
+## <img src="images/Allure_EE.svg" width="25" height="25" /> Integration with [Allure TestOps](https://allure.autotests.cloud/project/1199/)
 
 ### Dashboards
+
 <p align="center">
 <img title="TestOps dashboards" src="images/Dashboards.jpeg">
 </p>
 
 ### Test cases
+
 <p align="center">
 <img title="TestOps Test cases" src="images/Test cases.jpeg">
 </p>
 
-## <img width="4%" title="Jenkins" src="images/Jira.svg"> Интеграция с [Jira](https://jenkins.autotests.cloud/job/tatacheba_qaguru_11_for_interview)
+## <img width="4%" title="Jenkins" src="images/Jira.svg"> Integration with [Jira](https://jenkins.autotests.cloud/job/tatacheba_qaguru_11_for_interview)
 
 <p align="center">
-<img title=" Интеграция с Jira" src="images/jira_task.jpeg">
+<img title="Integration with Jira" src="images/jira_task.jpeg">
 </p>
 
-## <img src="images/Telegram.svg" width="25" height="25"/> Уведомления в Telegram с использованием бота
+## <img src="images/Telegram.svg" width="25" height="25"/> Notifications in Telegram using a bot
 
 <p align="center">
 <img title="Allure Overview Dashboard" src="images/allure_telegram.jpeg">
 </p>
-
-
-
