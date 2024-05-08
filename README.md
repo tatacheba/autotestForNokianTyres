@@ -53,7 +53,7 @@
 ## <a name="verified">Verified checks</a>
 
 -   ✓ Verifying the transition to the advanced guarantee information page.
--   ✓Checking the transition from the page "Advanced Guarantee" to https://marketplace.nokiantyres.ru/
+-   ✓ Checking the transition from the page "Advanced Guarantee" to https://marketplace.nokiantyres.ru/
 -   ✓ Check the Advanced Guarantee Activation Page.
 -   ✓ Check list of tyres with indefinite warranty.
 -   Parametrized tests:
