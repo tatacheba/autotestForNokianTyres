@@ -22,7 +22,9 @@
 >
 > :heavy_check_mark: [Notifications in Telegram using a bot](#notifications_telegram_bot)
 
-## :technologist: Technologies and tools
+:technologist: Technologies and tools
+
+## <a name="technologist"> Technologies and tools</a>
 
 <p align="center">
 <a href="https://www.jetbrains.com/idea/"><img src="images/Intelij_IDEA.svg" width="50" height="50"  alt="IDEA"/></a>
