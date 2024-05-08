@@ -130,7 +130,7 @@ test
 <img title="Integration with Jira" src="images/jira_task.jpeg">
 </p>
 
-## <img src="images/Telegram.svg" width="25" height="25"/> Notifications in Telegram using a bot
+## <img src="images/Telegram.svg" width="25" height="25"/> <a name="notifications_telegram_bot">Notifications in Telegram using a bot</a>
 
 <p align="center">
 <img title="Allure Overview Dashboard" src="images/allure_telegram.jpeg">
