@@ -84,7 +84,7 @@ test
   <img src="images/JenkinsProject.jpeg" alt="job" width="800">
 </p>
 
-## :: <img src="images/Allure_Report.svg" width="25" height="25"  alt="Allure"/><a name="report_allure_report"> Report on test results in <a target="_blank" href="https://jenkins.autotests.cloud/job/tatacheba_qaguru_11_for_interview/allure">Allure report</a> </a>
+## <img src="images/Allure_Report.svg" width="25" height="25"  alt="Allure"/><a name="report_allure_report"> Report on test results in <a target="_blank" href="https://jenkins.autotests.cloud/job/tatacheba_qaguru_11_for_interview/allure">Allure report</a> </a>
 
 ### Main
 
@@ -124,7 +124,7 @@ test
 <img title="TestOps Test cases" src="images/Test cases.jpeg">
 </p>
 
-## :integration_jira: <img width="4%" title="Jenkins" src="images/Jira.svg"> Integration with [Jira](https://jenkins.autotests.cloud/job/tatacheba_qaguru_11_for_interview)
+## <img width="4%" title="Jenkins" src="images/Jira.svg"><a name="integration_jira">Integration with [Jira](https://jenkins.autotests.cloud/job/tatacheba_qaguru_11_for_interview)</a>
 
 <p align="center">
 <img title="Integration with Jira" src="images/jira_task.jpeg">
