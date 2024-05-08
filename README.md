@@ -50,7 +50,7 @@
 >
 > *<code><strong>*Allure Report, Allure TestOps, Jira, Telegram Bot*</strong></code> are employed for visualizing test results.*
 
-## :verified: Verified checks
+## <a name="verified">Verified checks</a>
 
 -   ✓ Verifying the transition to the extended warranty information page.
 -   ✓ Check the transition to https://marketplace.nokiantyres.ru/ from the page "Extended Warranty".
@@ -60,7 +60,7 @@
     -   ✓ bus centre selection;
     -   ✓ showroom selection.
 
-## :computer: Run tests from the terminal
+## <a name="computer">Run tests from the terminal</a>
 
 Local start:
 
@@ -78,13 +78,13 @@ test
 -Dpassword=${PASSWORD}
 ```
 
-## :running_tests: <img width="4%" title="Jenkins" src="images/Jenkins.svg"> Running Tests in [Jenkins](https://jenkins.autotests.cloud/job/tatacheba_qaguru_11_for_interview)
+## <img width="4%" title="Jenkins" src="images/Jenkins.svg"><a name="running_tests">Running Tests in [Jenkins](https://jenkins.autotests.cloud/job/tatacheba_qaguru_11_for_interview)</a>
 
 <p align="center">
   <img src="images/JenkinsProject.jpeg" alt="job" width="800">
 </p>
 
-## :report_allure_report: <img src="images/Allure_Report.svg" width="25" height="25"  alt="Allure"/></a> Report on test results in <a target="_blank" href="https://jenkins.autotests.cloud/job/tatacheba_qaguru_11_for_interview/allure">Allure report</a>
+## :: <img src="images/Allure_Report.svg" width="25" height="25"  alt="Allure"/><a name="report_allure_report"> Report on test results in <a target="_blank" href="https://jenkins.autotests.cloud/job/tatacheba_qaguru_11_for_interview/allure">Allure report</a> </a>
 
 ### Main
 
@@ -110,7 +110,7 @@ test
 <img title="Selenoid Video" src="images/video2.gif" width="100%" height="auto"  alt="video"> 
 </p>
 
-## :integration_allure_testops: <img src="images/Allure_EE.svg" width="25" height="25" /> Integration with [Allure TestOps](https://allure.autotests.cloud/project/1199/)
+## <img src="images/Allure_EE.svg" width="25" height="25" /> <a name="integration_allure_testops">Integration with [Allure TestOps](https://allure.autotests.cloud/project/1199/)</a>
 
 ### Dashboards
 
