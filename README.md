@@ -6,21 +6,21 @@
 
 ## :page_with_curl: Contents
 
-> :heavy_check_mark: [Technologies and tools](#technologist-технологии-и-инструменты)
+> :heavy_check_mark: [Technologies and tools](#technologist)
 >
-> :heavy_check_mark: [Verified checks](#bookmark_tabs-реализованные-проверки)
+> :heavy_check_mark: [Verified checks](#verified)
 >
-> :heavy_check_mark: [Run tests from the terminal](#computer-Запуск-тестов-из-терминала)
+> :heavy_check_mark: [Run tests from the terminal](#computer)
 >
-> :heavy_check_mark: [Running Tests in Jenkins](#-запуск-тестов-в-jenkins)
+> :heavy_check_mark: [Running Tests in Jenkins](#running_tests)
 >
-> :heavy_check_mark: [Report on test results in Allure Report](#-отчет-в-allure-report)
+> :heavy_check_mark: [Report on test results in Allure Report](#report_allure_report)
 >
-> :heavy_check_mark: [Integration with Allure TestOps](#-Интеграция-с-Allure-TestOps)
+> :heavy_check_mark: [Integration with Allure TestOps](#integration_allure_testops)
 >
-> :heavy_check_mark: [Integration with Jira](#-интеграция-с-jira)
+> :heavy_check_mark: [Integration with Jira](#integration_jira)
 >
-> :heavy_check_mark: [Notifications in Telegram using a bot](#-уведомления-в-telegram-с-использованием-бота)
+> :heavy_check_mark: [Notifications in Telegram using a bot](#notifications_telegram_bot)
 
 ## :technologist: Technologies and tools
 
@@ -48,7 +48,7 @@
 >
 > *<code><strong>*Allure Report, Allure TestOps, Jira, Telegram Bot*</strong></code> are employed for visualizing test results.*
 
-## :bookmark_tabs: Verified checks
+## :verified: Verified checks
 
 -   ✓ Verifying the transition to the extended warranty information page.
 -   ✓ Check the transition to https://marketplace.nokiantyres.ru/ from the page "Extended Warranty".
@@ -76,13 +76,13 @@ test
 -Dpassword=${PASSWORD}
 ```
 
-## <img width="4%" title="Jenkins" src="images/Jenkins.svg"> Running Tests in [Jenkins](https://jenkins.autotests.cloud/job/tatacheba_qaguru_11_for_interview)
+## :running_tests: <img width="4%" title="Jenkins" src="images/Jenkins.svg"> Running Tests in [Jenkins](https://jenkins.autotests.cloud/job/tatacheba_qaguru_11_for_interview)
 
 <p align="center">
   <img src="images/JenkinsProject.jpeg" alt="job" width="800">
 </p>
 
-## <img src="images/Allure_Report.svg" width="25" height="25"  alt="Allure"/></a> Report on test results in <a target="_blank" href="https://jenkins.autotests.cloud/job/tatacheba_qaguru_11_for_interview/allure">Allure report</a>
+## :report_allure_report: <img src="images/Allure_Report.svg" width="25" height="25"  alt="Allure"/></a> Report on test results in <a target="_blank" href="https://jenkins.autotests.cloud/job/tatacheba_qaguru_11_for_interview/allure">Allure report</a>
 
 ### Main
 
@@ -108,7 +108,7 @@ test
 <img title="Selenoid Video" src="images/video2.gif" width="100%" height="auto"  alt="video"> 
 </p>
 
-## <img src="images/Allure_EE.svg" width="25" height="25" /> Integration with [Allure TestOps](https://allure.autotests.cloud/project/1199/)
+## :integration_allure_testops: <img src="images/Allure_EE.svg" width="25" height="25" /> Integration with [Allure TestOps](https://allure.autotests.cloud/project/1199/)
 
 ### Dashboards
 
@@ -122,13 +122,13 @@ test
 <img title="TestOps Test cases" src="images/Test cases.jpeg">
 </p>
 
-## <img width="4%" title="Jenkins" src="images/Jira.svg"> Integration with [Jira](https://jenkins.autotests.cloud/job/tatacheba_qaguru_11_for_interview)
+## :integration_jira: <img width="4%" title="Jenkins" src="images/Jira.svg"> Integration with [Jira](https://jenkins.autotests.cloud/job/tatacheba_qaguru_11_for_interview)
 
 <p align="center">
 <img title="Integration with Jira" src="images/jira_task.jpeg">
 </p>
 
-## <img src="images/Telegram.svg" width="25" height="25"/> Notifications in Telegram using a bot
+## :notifications_telegram_bot: <img src="images/Telegram.svg" width="25" height="25"/> Notifications in Telegram using a bot
 
 <p align="center">
 <img title="Allure Overview Dashboard" src="images/allure_telegram.jpeg">
