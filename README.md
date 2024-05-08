@@ -1,4 +1,4 @@
-# UI-testing automation project for Nokian tyres
+# UI-testing automation project for Nokian Tyres
 
 ##### :arrow_right: website [NOKIAN TYRES][id] :arrow_left:
 
@@ -36,17 +36,17 @@
 <a href="https://www.jenkins.io/"><img src="images/Jenkins.svg" width="50" height="50"  alt="Jenkins"/></a>
 </p>
 
-> *In this project, automated tests are written in <code><strong>*Java*</strong></code> using <code><strong>*Selenide*</strong></code> framework for UI testing.*
+> _In this project, automated tests are written in <code><strong>Java</strong></code> using the <code><strong>Selenide</strong></code> framework for UI testing._
 >
-> _<code><strong>*Gradle*</strong></code> is used for project building._
+> _<code><strong>Gradle</strong></code> is used for project building._
 >
-> *<code><strong>*JUnit 5*</strong></code> is utilized as the framework for unit testing.*
+> _<code><strong>JUnit 5</strong></code> is utilized as the framework for unit testing._
 >
-> *Test execution is performed from <code><strong>*Jenkins*</strong></code>.*
+> _Test execution is performed from <code><strong>Jenkins</strong></code>._
 >
-> *<code><strong>*Selenoid*</strong></code> is used for running browsers in <code><strong>*Docker*</strong></code>.*
+> _<code><strong>Selenoid</strong></code> is used for running browsers in <code><strong>Docker</strong></code>._
 >
-> *<code><strong>*Allure Report, Allure TestOps, Jira, Telegram Bot*</strong></code> are employed for visualizing test results.*
+> _<code><strong>Allure Report, Allure TestOps, Jira, Telegram Bot</strong></code> are employed for visualizing test results._
 
 ## :verified: Verified checks
 
