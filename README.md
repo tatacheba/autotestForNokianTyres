@@ -25,15 +25,15 @@
 ## <a name="technologist"> Technologies and tools</a>
 
 <p align="center">
-<a href="https://www.jetbrains.com/idea/"><img src="images/Intelij_IDEA.svg" width="50" height="50"  alt="IDEA"/></a>
-<a href="https://www.java.com/"><img src="images/Java.svg" width="50" height="50"  alt="Java"/></a>
-<a href="https://github.com/"><img src="images/Github.svg" width="50" height="50"  alt="Github"/></a>
-<a href="https://junit.org/junit5/"><img src="images/JUnit5.svg" width="50" height="50"  alt="JUnit 5"/></a>
-<a href="https://gradle.org/"><img src="images/Gradle.svg" width="50" height="50"  alt="Gradle"/></a>
-<a href="https://selenide.org/"><img src="images/Selenide.svg" width="50" height="50"  alt="Selenide"/></a>
-<a href="https://aerokube.com/selenoid/"><img src="images/Selenoid.svg" width="50" height="50"  alt="Selenoid"/></a>
-<a href="https://github.com/allure-framework/allure2"><img src="images/Allure_Report.svg" width="50" height="50"  alt="Allure"/></a>
-<a href="https://www.jenkins.io/"><img src="images/Jenkins.svg" width="50" height="50"  alt="Jenkins"/></a>
+<a href="https://www.jetbrains.com/idea/"><img src="images/logo/Intelij_IDEA.svg" width="50" height="50"  alt="IDEA"/></a>
+<a href="https://www.java.com/"><img src="images/logo/Java.svg" width="50" height="50"  alt="Java"/></a>
+<a href="https://github.com/"><img src="images/logo/Github.svg" width="50" height="50"  alt="Github"/></a>
+<a href="https://junit.org/junit5/"><img src="images/logo/JUnit5.svg" width="50" height="50"  alt="JUnit 5"/></a>
+<a href="https://gradle.org/"><img src="images/logo/Gradle.svg" width="50" height="50"  alt="Gradle"/></a>
+<a href="https://selenide.org/"><img src="images/logo/Selenide.svg" width="50" height="50"  alt="Selenide"/></a>
+<a href="https://aerokube.com/selenoid/"><img src="images/logo/Selenoid.svg" width="50" height="50"  alt="Selenoid"/></a>
+<a href="https://github.com/allure-framework/allure2"><img src="images/logo/Allure_Report.svg" width="50" height="50"  alt="Allure"/></a>
+<a href="https://www.jenkins.io/"><img src="images/logo/Jenkins.svg" width="50" height="50"  alt="Jenkins"/></a>
 </p>
 
 > *In this project, automated tests are written in <code><strong>*Java*</strong></code> using <code><strong>*Selenide*</strong></code> framework for UI testing.*
@@ -79,33 +79,33 @@ test
 ## <img width="4%" title="Jenkins" src="images/Jenkins.svg"><a name="running_tests">Running Tests in [Jenkins](https://jenkins.autotests.cloud/job/tatacheba_qaguru_11_for_interview)</a>
 
 <p align="center">
-  <img src="images/JenkinsProject.jpeg" alt="job" width="800">
+  <img src="images/screenshots/JenkinsProject.jpeg" alt="job" width="800">
 </p>
 
-## <img src="images/Allure_Report.svg" width="25" height="25"  alt="Allure"/><a name="report_allure_report"> Report on test results in <a target="_blank" href="https://jenkins.autotests.cloud/job/tatacheba_qaguru_11_for_interview/allure">Allure report</a> </a>
+## <img src="images/screenshots/Allure_Report.svg" width="25" height="25"  alt="Allure"/><a name="report_allure_report"> Report on test results in <a target="_blank" href="https://jenkins.autotests.cloud/job/tatacheba_qaguru_11_for_interview/allure">Allure report</a> </a>
 
 ### Main
 
 <p align="center">
-<img title="Allure Overview Dashboard" src="images/allure_main.jpeg">
+<img title="Allure Overview Dashboard" src="images/screenshots/allure_main.jpeg">
 </p>
 
 ### Tests
 
 <p align="center">
-<img title="Allure Tests" src="images/allure_tests.jpeg">
+<img title="Allure Tests" src="images/screenshots/allure_tests.jpeg">
 </p>
 
 ### Graphics
 
 <p align="center">
-<img title="Allure Graphics" src="images/allure_graphics.jpeg">
+<img title="Allure Graphics" src="images/screenshots/allure_graphics.jpeg">
 </p>
 
 ### <img src="images/Selenoid.svg" width="25" height="25" /></a> Example video about passing tests
 
 <p align="center">
-<img title="Selenoid Video" src="images/video2.gif" width="100%" height="auto"  alt="video"> 
+<img title="Selenoid Video" src="images/screenshots/video2.gif" width="100%" height="auto"  alt="video"> 
 </p>
 
 ## <img src="images/Allure_EE.svg" width="25" height="25" /> <a name="integration_allure_testops">Integration with [Allure TestOps](https://allure.autotests.cloud/project/1199/)</a>
@@ -113,23 +113,23 @@ test
 ### Dashboards
 
 <p align="center">
-<img title="TestOps dashboards" src="images/Dashboards.jpeg">
+<img title="TestOps dashboards" src="images/screenshots/Dashboards.jpeg">
 </p>
 
 ### Test cases
 
 <p align="center">
-<img title="TestOps Test cases" src="images/Test cases.jpeg">
+<img title="TestOps Test cases" src="images/screenshots/Test cases.jpeg">
 </p>
 
 ## <img width="4%" title="Jenkins" src="images/Jira.svg"><a name="integration_jira">Integration with [Jira](https://jenkins.autotests.cloud/job/tatacheba_qaguru_11_for_interview)</a>
 
 <p align="center">
-<img title="Integration with Jira" src="images/jira_task.jpeg">
+<img title="Integration with Jira" src="images/screenshots/jira_task.jpeg">
 </p>
 
 ## <img src="images/Telegram.svg" width="25" height="25"/> <a name="notifications_telegram_bot">Notifications in Telegram using a bot</a>
 
 <p align="center">
-<img title="Allure Overview Dashboard" src="images/allure_telegram.jpeg">
+<img title="Allure Overview Dashboard" src="images/screenshots/allure_telegram.jpeg">
 </p>
