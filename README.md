@@ -82,7 +82,7 @@ test
   <img src="images/screenshots/JenkinsProject.jpeg" alt="job" width="800">
 </p>
 
-## <img src="images/screenshots/Allure_Report.svg" width="25" height="25"  alt="Allure"/><a name="report_allure_report"> Report on test results in <a target="_blank" href="https://jenkins.autotests.cloud/job/tatacheba_qaguru_11_for_interview/allure">Allure report</a> </a>
+## <img src="images/logo/Allure_Report.svg" width="25" height="25"  alt="Allure"/><a name="report_allure_report"> Report on test results in <a target="_blank" href="https://jenkins.autotests.cloud/job/tatacheba_qaguru_11_for_interview/allure">Allure report</a> </a>
 
 ### Main
 
