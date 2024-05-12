@@ -76,7 +76,7 @@ test
 -Dpassword=${PASSWORD}
 ```
 
-## <img width="4%" title="Jenkins" src="images/Jenkins.svg"><a name="running_tests">Running Tests in [Jenkins](https://jenkins.autotests.cloud/job/tatacheba_qaguru_11_for_interview)</a>
+## <img width="4%" title="Jenkins" src="images/logo/Jenkins.svg"><a name="running_tests">Running Tests in [Jenkins](https://jenkins.autotests.cloud/job/tatacheba_qaguru_11_for_interview)</a>
 
 <p align="center">
   <img src="images/screenshots/JenkinsProject.jpeg" alt="job" width="800">
@@ -102,13 +102,13 @@ test
 <img title="Allure Graphics" src="images/screenshots/allure_graphics.jpeg">
 </p>
 
-### <img src="images/Selenoid.svg" width="25" height="25" /></a> Example video about passing tests
+### <img src="images/logo/Selenoid.svg" width="25" height="25" /></a> Example video about passing tests
 
 <p align="center">
 <img title="Selenoid Video" src="images/screenshots/video2.gif" width="100%" height="auto"  alt="video"> 
 </p>
 
-## <img src="images/Allure_EE.svg" width="25" height="25" /> <a name="integration_allure_testops">Integration with [Allure TestOps](https://allure.autotests.cloud/project/1199/)</a>
+## <img src="images/logo/Allure_EE.svg" width="25" height="25" /> <a name="integration_allure_testops">Integration with [Allure TestOps](https://allure.autotests.cloud/project/1199/)</a>
 
 ### Dashboards
 
@@ -122,13 +122,13 @@ test
 <img title="TestOps Test cases" src="images/screenshots/Test cases.jpeg">
 </p>
 
-## <img width="4%" title="Jenkins" src="images/Jira.svg"><a name="integration_jira">Integration with [Jira](https://jenkins.autotests.cloud/job/tatacheba_qaguru_11_for_interview)</a>
+## <img width="4%" title="Jenkins" src="images/logo/Jira.svg"><a name="integration_jira">Integration with [Jira](https://jenkins.autotests.cloud/job/tatacheba_qaguru_11_for_interview)</a>
 
 <p align="center">
 <img title="Integration with Jira" src="images/screenshots/jira_task.jpeg">
 </p>
 
-## <img src="images/Telegram.svg" width="25" height="25"/> <a name="notifications_telegram_bot">Notifications in Telegram using a bot</a>
+## <img src="images/logo/Telegram.svg" width="25" height="25"/> <a name="notifications_telegram_bot">Notifications in Telegram using a bot</a>
 
 <p align="center">
 <img title="Allure Overview Dashboard" src="images/screenshots/allure_telegram.jpeg">
